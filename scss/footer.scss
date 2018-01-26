@@ -1,0 +1,53 @@
+footer {
+    padding-top: 1em;
+    background: rgb(97, 45, 239);
+    background: -moz-linear-gradient(-20deg, rgb(97, 45, 239) 0%, rgb(162,180,229) 50%, rgb(48,65,104) 100%);
+    background: -webkit-linear-gradient(-20deg, rgb(97, 45, 239) 0%,rgb(162,180,229) 50%,rgb(48,65,104) 100%);
+    background: linear-gradient(110deg, rgb(97, 45, 239) 0%,rgb(162,180,229) 50%,rgb(48,65,104) 100%);
+    .container {
+        .row {
+            div {
+                text-align: center;
+                a {
+                    text-decoration: none;
+                    color: rgb(73, 73, 73);
+                    i {
+                        font-size: 2em;
+                    }
+                    span {
+                        font-size: 0.8em;
+                    }
+                }
+                .fb:hover {
+                    color: #353581;
+                    transition: 0.5s;
+                }
+                .insta:hover {
+                    color: #B64DB6;
+                    transition: 0.5s;
+                }
+                .tweet:hover {
+                    color: #0084b4;
+                    transition: 0.5s;
+                }
+                .git:hover{
+                    color: #000;
+                    transition: 0.5s;
+                }
+            }
+        }
+        .contacts {
+            color: #1b1b1b;
+            overflow: hidden;
+            font-size: 12px;
+            .left {
+                padding: 5px;
+                float: left;
+            }
+            .right {
+                padding: 5px;
+                float: right;
+            }
+        }
+    }
+}

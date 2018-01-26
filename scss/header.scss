@@ -1,0 +1,38 @@
+body{
+    min-width: 480px;
+}
+header {
+    background: rgb(97, 45, 239);
+    background: -moz-linear-gradient(-20deg, rgb(97, 45, 239) 0%, rgb(162,180,229) 50%, rgb(48,65,104) 100%);
+    background: -webkit-linear-gradient(-20deg, rgb(97, 45, 239) 0%,rgb(162,180,229) 50%,rgb(48,65,104) 100%);
+    background: linear-gradient(110deg, rgb(97, 45, 239) 0%,rgb(162,180,229) 50%,rgb(48,65,104) 100%);
+    .container {
+        .row {
+            height: 4em;
+            h3 {
+                color:#e6ecec;
+                text-align: center;
+                font-family: 'Roboto Condensed', sans-serif;
+            }
+        }
+    }
+    nav {
+        text-align: center;
+        a {
+            font-size: 0.9em;
+            text-decoration: none;
+            margin: 0 3%;
+            color: #fff;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: none;
+            color: #525252;
+            transition: 0.5s;
+            font-weight: 600;
+        }
+        a.active{
+            color: #525252;
+        }
+    }
+}

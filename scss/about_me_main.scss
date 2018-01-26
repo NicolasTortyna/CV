@@ -1,0 +1,19 @@
+.about_me_main{
+    min-height: 100vh;
+    padding: 3em 0;
+    background-color: rgb(235, 235, 235);
+    min-height: 100vh;
+    -webkit-box-shadow: inset 0px 18px 20px -20px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    inset 0px 18px 20px -20px rgba(50, 50, 50, 0.75);
+    box-shadow:         inset 0px 18px 20px -20px rgba(50, 50, 50, 0.75);
+    color: rgb(73, 73, 73);
+    h4{
+        font-size: 2em;
+        text-align: center;
+    }
+    .col-md-3 i{
+        color: cadetblue;
+        font-size: 5em;
+        margin: 20px;
+    }
+}

@@ -1,0 +1,24 @@
+.contacts_main{
+    text-decoration: none;
+    min-height: 100vh;
+    padding: 3em 0;
+    background-color: rgb(235, 235, 235);
+    min-height: 100vh;
+    -webkit-box-shadow: inset 0px 18px 20px -20px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    inset 0px 18px 20px -20px rgba(50, 50, 50, 0.75);
+    box-shadow:         inset 0px 18px 20px -20px rgba(50, 50, 50, 0.75);
+    color: rgb(73, 73, 73);
+    .row{
+        a{
+            text-decoration: none;
+        }
+        .contact-head{
+            font-size: 1.5em;
+        }
+    }
+    p{
+        i{
+            font-size: 2em;
+        }
+    }
+}
